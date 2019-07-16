@@ -1,0 +1,110 @@
+.main-navtree {
+
+	.x-treelist-item-text {
+		margin-right: 0px !important;
+	}
+
+	// .x-treelist-row,
+	// .x-treelist-item-tool {
+	// 	border-bottom: 1px solid rgba(0, 0, 0, 15%);
+	// 	border-top: 1px solid rgba(255, 255, 255, 5%);
+	// }
+
+	// li:last-child {
+	// 	border-bottom: 1px solid rgba(255, 255, 255, 5%);
+	// }
+
+	// .x-treelist-toolstrip {
+	// 	div:last-child {
+	// 		border-bottom: 1px solid rgba(255, 255, 255, 5%);
+	// 	}
+	// }
+}
+
+@include treelist-ui($ui: 'gray',
+	$padding: 0 10px,
+	$background-color: $gray-ui-treelist-background-color,
+	$toolstrip-background-color: $gray-ui-treelist-background-color,
+	$tool-float-indicator-color: $gray-ui-treelist-indicator-color,
+	$tool-float-indicator-width: 5px,
+	$tool-indicator-selected-color: $gray-ui-treelist-indicator-color,
+	$tool-indicator-selected-width: 5px,
+	$tool-selected-background-color: mix($base-white, $gray-ui-treelist-background-color, 10%),
+	$item-expanded-background-color: mix($base-white, $gray-ui-treelist-background-color, 5%),
+	$item-line-height: 64px,
+	$row-over-background-color: mix($base-white, $gray-ui-treelist-background-color, 5%),
+	$row-selected-background-color: mix($base-white, $gray-ui-treelist-background-color, 10%),
+	$item-icon-color: $gray-ui-treelist-item-text-color,
+	$item-expander-color: $base-white,
+	$item-text-color: $gray-ui-treelist-item-text-color,
+	$item-icon-over-color: $base-white,
+	$item-expander-over-color: $base-white,
+	$item-text-over-color: mix($base-white, $gray-ui-treelist-item-text-color, 50%),
+	$item-text-font-size: 14px,
+	$item-icon-font-size: 18px,
+	$item-icon-width: 44px,
+	$item-expander-font-size: 16px,
+	$item-expander-width: 24px,
+	$row-indicator-width: 5px,
+	$row-indicator-selected-color: $gray-ui-treelist-indicator-color,
+	$row-indicator-selected-over-color: lighten($gray-ui-treelist-indicator-color, 7%),
+	$row-indicator-over-color: transparent);
+
+@include treelist-ui($ui: 'blue',
+	$padding: 0 10px,
+	$background-color: $blue-ui-treelist-background-color,
+	$toolstrip-background-color: $blue-ui-treelist-background-color,
+	$tool-float-indicator-color: $blue-ui-treelist-indicator-color,
+	$tool-float-indicator-width: 5px,
+	$tool-indicator-selected-color: $blue-ui-treelist-indicator-color,
+	$tool-indicator-selected-width: 5px,
+	$tool-selected-background-color: mix($base-white, $blue-ui-treelist-background-color, 10%),
+	$item-expanded-background-color: mix($base-white, $blue-ui-treelist-background-color, 5%),
+	$item-line-height: 64px,
+	$row-over-background-color: mix($base-white, $blue-ui-treelist-background-color, 5%),
+	$row-selected-background-color: mix($base-white, $blue-ui-treelist-background-color, 10%),
+	$item-icon-color: $blue-ui-treelist-item-text-color,
+	$item-expander-color: $base-white,
+	$item-text-color: $blue-ui-treelist-item-text-color,
+	$item-icon-over-color: $base-white,
+	$item-expander-over-color: $base-white,
+	$item-text-over-color: mix($base-white, $blue-ui-treelist-item-text-color, 50%),
+	$item-text-font-size: 14px,
+	$item-icon-font-size: 18px,
+	$item-icon-width: 44px,
+	$item-expander-font-size: 16px,
+	$item-expander-width: 24px,
+	$row-indicator-width: 5px,
+	$row-indicator-selected-color: $blue-ui-treelist-indicator-color,
+	$row-indicator-selected-over-color: lighten($blue-ui-treelist-indicator-color, 7%),
+	$row-indicator-over-color: transparent);
+
+@include treelist-ui($ui: 'red',
+	$padding: 0 10px,
+	$background-color: $red-ui-treelist-background-color,
+	$toolstrip-background-color: $red-ui-treelist-background-color,
+	$tool-float-indicator-color: $red-ui-treelist-indicator-color,
+	$tool-float-indicator-width: 5px,
+	$tool-indicator-selected-color: $red-ui-treelist-indicator-color,
+	$tool-indicator-selected-width: 5px,
+	$tool-selected-background-color: mix($base-white, $red-ui-treelist-background-color, 10%),
+	$item-expanded-background-color: mix($base-white, $red-ui-treelist-background-color, 5%),
+	$item-line-height: 64px,
+	$row-over-background-color: mix($base-white, $red-ui-treelist-background-color, 5%),
+	// $row-selected-background-color: mix($base-white, $red-ui-treelist-background-color, 10%),
+	$row-selected-background-color:#1f1f1f,
+	$item-icon-color: $red-ui-treelist-item-text-color,
+	$item-expander-color: $base-white,
+	$item-text-color: $red-ui-treelist-item-text-color,
+	$item-icon-over-color: $base-white,
+	$item-expander-over-color: $base-white,
+	$item-text-over-color: mix($base-white, $red-ui-treelist-item-text-color, 50%),
+	$item-text-font-size: 14px,
+	$item-icon-font-size: 18px,
+	$item-icon-width: 44px,
+	$item-expander-font-size: 16px,
+	$item-expander-width: 24px,
+	$row-indicator-width: 5px,
+	$row-indicator-selected-color: $red-ui-treelist-indicator-color,
+	$row-indicator-selected-over-color: lighten($red-ui-treelist-indicator-color, 7%),
+	$row-indicator-over-color: transparent);

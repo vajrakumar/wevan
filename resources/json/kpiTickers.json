@@ -1,0 +1,45 @@
+{
+	"success": true,
+	"data": [{
+		"itemId": "top5GrossCost",
+		"title": "Top 5 Gross Cost",
+		"value": "$14,859,043",
+		"description": "Last Month $14,859,043",
+		"filters": {
+			"currentRank": [1, 2, 3, 4, 5]
+		}
+	}, {
+		"itemId": "avgGrossCostPerRx",
+		"title": "Avg Gross Cost Per Rx",
+		"value": "$2,337.32",
+		"description": "Last month $2,337.32",
+		"routeId": "populationDiagnostics"
+	}, {
+		"itemId": "avgGrossCostPerDay",
+		"title": "Avg Gross Cost Per Day",
+		"value": "$77.90",
+		"description": "Last month $77.90",
+		"routeId": "conditionDrivers"
+	}, {
+		"itemId": "avgSpecialtyCostPerRx",
+		"title": "Avg Specialty Cost Per Rx",
+		"value": "$2,337.32",
+		"description": "Last month $2,337.32",
+		"routeId": "financialTrends"
+	}, {
+		"itemId": "avgBrandCostPerRx",
+		"title": "Avg Brand Cost Per Rx",
+		"value": "$1,052.84",
+		"description": "Last month $1,052.84",
+		"routeId": "clinicalValue"
+	}, {
+		"itemId": "topGrossCostPerRx",
+		"title": "Top Gross Cost Per Rx",
+		"value": "$75,140.81",
+		"description": "Strensiq (16 Prescriptions)",
+		"selections": {
+			"therapeuticClass": ["Endocrine And Metabolic Agents"]
+		}
+	}],
+	"message": "The data was retrieved successfully."
+}

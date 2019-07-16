@@ -1,0 +1,32 @@
+@include panel-ui($ui: 'gray',
+	$body-background-color: $panel-body-background-color,
+	$border-color: $gray-ui-border-color,
+	$border-radius: $panel-border-radius,
+	$border-width: $panel-border-width,
+	$header-background-color: $gray-ui-header-background-color,
+	$header-color: $gray-ui-header-color,
+	$header-font-size: $panel-header-font-size,
+	$header-min-height: $panel-header-min-height,
+	$tool-color: $gray-ui-tool-color);
+
+@include panel-ui($ui: 'blue',
+	$body-background-color: $panel-body-background-color,
+	$border-color: $blue-ui-border-color,
+	$border-radius: $panel-border-radius,
+	$border-width: $panel-border-width,
+	$header-background-color: $gray-ui-header-background-color,
+	$header-color: $gray-ui-header-color,
+	$header-font-size: $panel-header-font-size,
+	$header-min-height: $panel-header-min-height,
+	$tool-color: $gray-ui-tool-color);
+
+@include panel-ui($ui: 'red',
+	$body-background-color: $panel-body-background-color,
+	$border-color: $red-ui-border-color,
+	$border-radius: $panel-border-radius,
+	$border-width: $panel-border-width,
+	$header-background-color: $red-ui-header-background-color,
+	$header-color: $red-ui-header-color,
+	$header-font-size: $panel-header-font-size,
+	$header-min-height: $panel-header-min-height,
+	$tool-color: $red-ui-tool-color);

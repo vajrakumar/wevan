@@ -1,0 +1,56 @@
+/*
+ * This is is imported by virtue of "sass.var" in "app.json".
+ */
+$enable-font-awesome: dynamic(true);
+
+$base-color: #35baf6;
+$base-blue: #5594d4;
+$base-chart-blue: #bcd1f5;
+$base-green: #77bf6f;
+$base-orange: #f0b300;
+$base-red: #d65b2e;
+$base-white: #fff;
+$base-yellow-orange: #ff9900;
+$base-yellow: #eedd47;
+
+$base-toolbar-bg-color: #dbe0e9;
+$text-color-dark: #6d6e6d;
+$text-color-light: lighten($text-color-dark, 5%);
+
+$main-navtree-width: dynamic(200px);
+$main-navtree-collapsed-width: dynamic(64px);
+
+$panel-body-background-color: #ffffff;
+$panel-border-radius: 6px;
+$panel-border-width: 1px;
+$panel-header-font-size: 16px;
+$panel-header-min-height: 20px;
+
+$gray-ui-base-color: #495057;
+// $gray-ui-border-color: #e0e5ec;
+$gray-ui-border-color: darken(#f5f5f5, 7%);
+// $gray-ui-header-background-color: #f8f9fa;
+$gray-ui-header-background-color: #f5f5f5;
+$gray-ui-header-color: $gray-ui-base-color;
+$gray-ui-tool-color: lighten($gray-ui-base-color, 15%);
+$gray-ui-treelist-background-color: #32404e;
+$gray-ui-treelist-indicator-color: $base-color;
+$gray-ui-treelist-item-text-color: #adb3b8;
+
+$blue-ui-base-color: $base-blue;
+$blue-ui-border-color: $blue-ui-base-color;
+$blue-ui-header-background-color: $blue-ui-base-color;
+$blue-ui-header-color: $base-white;
+$blue-ui-tool-color: $base-white;
+$blue-ui-treelist-background-color: #3977b6;
+$blue-ui-treelist-indicator-color: $base-color;
+$blue-ui-treelist-item-text-color: $base-white;
+
+$red-ui-base-color: desaturate(#ba242f, 10%);
+$red-ui-border-color: $red-ui-base-color;
+$red-ui-header-background-color: $red-ui-base-color;
+$red-ui-header-color: $base-white;
+$red-ui-tool-color: $base-white;
+$red-ui-treelist-background-color: #1a1919;
+$red-ui-treelist-indicator-color: $red-ui-base-color;
+$red-ui-treelist-item-text-color: $base-white;

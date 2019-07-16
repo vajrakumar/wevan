@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 84.254 82.254">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.087" y1="0.218" x2="0.912" y2="0.783" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#1879bf" stop-opacity="0.502"/>
+      <stop offset="1" stop-color="#1879bf"/>
+    </linearGradient>
+  </defs>
+  <g id="Condition_Drivers" transform="translate(-732.339 -89.579)">
+    <ellipse id="Ellipse_28" data-name="Ellipse 28" class="cls-1" cx="42.127" cy="41.127" rx="42.127" ry="41.127" transform="translate(732.339 89.579)"/>
+    <circle id="Ellipse_29" data-name="Ellipse 29" class="cls-2" cx="39.319" cy="39.319" r="39.319" transform="translate(735.147 91.388)"/>
+    <rect id="Rectangle_240" data-name="Rectangle 240" class="cls-1" width="5.013" height="4.845" transform="translate(799.489 128.263)"/>
+    <rect id="Rectangle_241" data-name="Rectangle 241" class="cls-1" width="5.013" height="4.845" transform="translate(790.769 128.263)"/>
+    <path id="Path_40" data-name="Path 40" class="cls-1" d="M1061.3,157.672l-1.573,5.336-9.057-20.038-4.7,14.815H1031.88v4.859h17.637l1.952-6.137,9.212,20.376,4.241-14.351h7.133v-4.859Z" transform="translate(-284.994 -29.409)"/>
+  </g>
+</svg>

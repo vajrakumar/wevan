@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink">
+	<!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+	<title>favicon</title>
+	<desc>Created with Sketch.</desc>
+	<g id="favicon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+		<g id="64x64">
+			<g id="favicon">
+				<ellipse id="small" fill="#719BA8" cx="6.77832512" cy="32" rx="6.77832512" ry="6.76649746"></ellipse>
+				<ellipse id="small" fill="#596593" cx="32.3152709" cy="57.2335025" rx="6.77832512" ry="6.76649746">
+				</ellipse>
+				<ellipse id="small" fill="#596593" cx="57.2216749" cy="32" rx="6.77832512" ry="6.76649746"></ellipse>
+				<ellipse id="small" fill="#719BA8" cx="32.3152709" cy="6.76649746" rx="6.77832512" ry="6.76649746">
+				</ellipse>
+				<ellipse id="medium" fill="#ED9328" cx="15.9211823" cy="16.893401" rx="9.93103448" ry="9.91370558">
+				</ellipse>
+				<ellipse id="medium" fill="#CA1A31" cx="15.9211823" cy="46.7918782" rx="9.93103448" ry="9.91370558">
+				</ellipse>
+				<ellipse id="medium" fill="#16427F" cx="48.3940887" cy="46.7918782" rx="9.93103448" ry="9.91370558">
+				</ellipse>
+				<ellipse id="medium" fill="#58889C" cx="48.3940887" cy="16.893401" rx="9.93103448" ry="9.91370558">
+				</ellipse>
+				<ellipse id="large" fill="#EA7729" cx="32.1576355" cy="31.8426396" rx="11.0344828" ry="11.0152284">
+				</ellipse>
+			</g>
+		</g>
+	</g>
+</svg>

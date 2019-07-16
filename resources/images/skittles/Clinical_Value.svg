@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 84.254 84.254">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.087" y1="0.218" x2="0.912" y2="0.783" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#a81882" stop-opacity="0.502"/>
+      <stop offset="1" stop-color="#a81882"/>
+    </linearGradient>
+  </defs>
+  <g id="Clinical_Value" transform="translate(-567.172 -416.722)">
+    <circle id="Ellipse_31" data-name="Ellipse 31" class="cls-1" cx="42.127" cy="42.127" r="42.127" transform="translate(567.172 416.722)"/>
+    <circle id="Ellipse_32" data-name="Ellipse 32" class="cls-2" cx="39.319" cy="39.319" r="39.319" transform="translate(569.981 419.53)"/>
+    <path id="Path_41" data-name="Path 41" class="cls-1" d="M959.259,401.669a4.887,4.887,0,1,0-5.617,4.831v3.4a8.587,8.587,0,0,1-17.174,0v-4.859h0a1.489,1.489,0,0,0,1.4-1.25A14.211,14.211,0,0,0,949.5,389.846V374.4a.913.913,0,0,0-.913-.913h-4.381a.913.913,0,0,0-.913.913v1.236a.913.913,0,0,0,.913.913h2.472v13.368a11.234,11.234,0,0,1-8.72,10.925,1.488,1.488,0,0,0-1.4-.969h-2.233a1.488,1.488,0,0,0-1.4.955,11.234,11.234,0,0,1-8.678-10.925V376.477h2.471a.913.913,0,0,0,.913-.913v-1.222a.913.913,0,0,0-.913-.913h-4.536a.913.913,0,0,0-.913.913v15.447a14.211,14.211,0,0,0,11.585,13.944,1.475,1.475,0,0,0,1.4,1.25v4.859a10.869,10.869,0,1,0,21.724,0v-3.609A4.887,4.887,0,0,0,959.259,401.669Zm-7.527,0a2.612,2.612,0,1,0,.056,0Z" transform="translate(-329.711 63.752)"/>
+  </g>
+</svg>

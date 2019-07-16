@@ -1,0 +1,20 @@
+.main {
+	.main-navtree {
+		position: relative;
+		transition: width 0.3s;
+		width: $main-navtree-width;
+	}
+
+	.main-navtree-collapsed {
+		width: $main-navtree-collapsed-width;
+	}
+
+	.x-treelist-item-expandable {
+		.x-treelist-container {
+			.x-treelist-item-text {
+				margin-left: 0px;
+				margin-right: 0px;
+			}
+		}
+	}
+}

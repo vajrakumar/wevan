@@ -1,0 +1,16 @@
+.main-header {
+	.app-title {
+		font: 200 24px Oswald, sans-serif;
+		margin: 0px 20px 0px 10px;
+	}
+}
+
+@include button-ui($ui: 'header',
+	$background-color: transparent,
+	$badge-background-color: $tabler-red,
+	$badge-color: $base-white,
+	$border-width: 0,
+	$color: $text-color-dark,
+	$hovered-background-color: rgba($text-color-dark, 15%),
+	$pressed-color: $text-color-dark,
+	$pressed-background-color: rgba($text-color-dark, 15%));

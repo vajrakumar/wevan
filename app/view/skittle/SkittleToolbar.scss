@@ -1,0 +1,65 @@
+.x-toolbar-gray-skittle,
+.x-toolbar-blue-skittle,
+.x-toolbar-red-skittle {
+	.skittle-image {
+		background-position: center;
+		background-repeat: no-repeat;
+		height: 50px;
+	}
+
+	.skittle-text {
+		font-size: 13px;
+		padding-top: 5px;
+		text-align: center;
+	}
+
+	&.micro {
+		.skittle-image {
+			height: 48px;
+			width: 48px;
+		}
+
+		.skittle-text {
+			display: none;
+		}
+	}
+}
+
+@include toolbar-ui($ui: 'gray-skittle',
+	$background-color: #31404e,
+	$padding: 0px,
+	$vertical-spacing: 0px);
+
+@include toolbar-ui($ui: 'blue-skittle',
+	$background-color: #e7eef1,
+	$padding: 0px,
+	$vertical-spacing: 0px);
+
+@include toolbar-ui($ui: 'red-skittle',
+	$background-color: #191818,
+	$padding: 0px,
+	$vertical-spacing: 0px);
+
+@include button-ui($ui: 'gray-skittle',
+	$background-color: transparent,
+	$border-radius: 0px,
+	$color: #adb3b7,
+	$hovered-background-color: rgba($text-color-dark, 15%),
+	$pressed-color: #adb3b7,
+	$pressed-background-color: #475360);
+
+@include button-ui($ui: 'blue-skittle',
+	$background-color: transparent,
+	$border-radius: 0px,
+	$color: $gray-ui-base-color,
+	$hovered-background-color: rgba($text-color-dark, 15%),
+	$pressed-color: $base-white,
+	$pressed-background-color: #477cab);
+
+@include button-ui($ui: 'red-skittle',
+	$background-color: transparent,
+	$border-radius: 0px,
+	$color: $base-white,
+	$hovered-background-color: rgba($text-color-dark, 15%),
+	$pressed-color: $base-white,
+	$pressed-background-color: lighten(#191818, 10%));
